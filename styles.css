@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 768px; /* 16 * 48px = 768px */
+    height: 768px; /* 16 * 48px = 768px */
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.gridSquare {
+    border: 1px solid red;
+    background-color: black;
+}
+
+.gridSquare:hover{
+    background-color: purple;
+}
+
+button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    font-size: 16px;
+}
